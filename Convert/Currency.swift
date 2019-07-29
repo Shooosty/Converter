@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+
+struct Currency: Codable {
+    var usd: Double
+    var rub: Double
+    
+}

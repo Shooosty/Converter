@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+extension Double {
+    func toString() -> String? {
+        return NumberFormatter().number(from: self)?.stringValue
+    }
+}
